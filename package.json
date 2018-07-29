@@ -1,0 +1,38 @@
+{
+  "name": "@onetaiko/facebook-page-manager",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prescrape": "npm run build",
+    "scrape": "node dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bforbis/facebook-page-manager.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bforbis/facebook-page-manager/issues"
+  },
+  "homepage": "https://github.com/bforbis/facebook-page-manager#readme",
+  "dependencies": {
+    "lodash": "^4.17.10",
+    "request": "^2.87.0",
+    "request-promise": "^4.2.2",
+    "xml2js": "^0.4.19"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^5.0.4",
+    "@types/lodash": "^4.14.115",
+    "@types/request": "^2.47.1",
+    "@types/request-promise": "^4.1.42",
+    "@types/xml2js": "^0.4.3",
+    "fs-extra": "^7.0.0",
+    "typescript": "^2.9.2"
+  }
+}

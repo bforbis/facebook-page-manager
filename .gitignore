@@ -1,0 +1,5 @@
+node_modules
+
+# TypeScript v2
+dist/
+.vscode
