@@ -1,8 +1,12 @@
 {
   "name": "@onetaiko/facebook-page-manager",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "version": "0.0.1",
+  "description": "An app that scrapes events from wordpress and posts them to facebook",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -14,8 +18,11 @@
     "url": "git+https://github.com/bforbis/facebook-page-manager.git"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": {
+    "name": "Brian Forbis",
+    "email": "bpforbis@gmail.com"
+  },
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/bforbis/facebook-page-manager/issues"
   },
