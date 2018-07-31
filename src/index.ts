@@ -1,7 +1,5 @@
 'use strict';
 
 import * as eventScraper from './app/event-scraper';
-
-eventScraper.scrapeEvents({
-  cached: true,
-}).then((parsedData) => {console.log(parsedData)});
+import * as utils from './app/utils';
+import * as secrets from './secrets';
